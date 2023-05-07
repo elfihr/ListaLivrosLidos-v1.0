@@ -5,4 +5,4 @@ Como Funciona:
 Informa nome do leitor e quantidade de livros lidos
 >>Em seguida informar nome do livro e quantidade paginas
 
---Sera impressor uma epescie de "formulario" com as informações preenchidas
+--Sera impresso uma especie de "formulario" com as informações preenchidas
