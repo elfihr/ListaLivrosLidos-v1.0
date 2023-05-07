@@ -4,9 +4,10 @@ public class Main {
     public static void main(String[] args) throws Exception {
 
         Scanner leia = new Scanner(System.in);
+        Scanner leiaString = new Scanner(System.in);
 
         System.out.println("Nome do Leitor: ");
-        String nome = leia.nextLine();
+        String nome = leiaString.nextLine();
         System.out.printf("Quantidade de Livros Lidos: ");
         int livrosLidos = leia.nextInt();
 
@@ -17,7 +18,7 @@ public class Main {
 
             //nao funciona se o nome for varias palavras
             System.out.print("\nNome do Livro: ");
-            listaTot.setNomeLivro(leia.next());
+            listaTot.setNomeLivro(leiaString.nextLine());
 
             System.out.print("Quantidade de paginas: ");
             listaTot.setPagina(leia.nextInt());
